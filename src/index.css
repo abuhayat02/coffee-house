@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.my-shadow{
+    box-shadow: 0px 0px 10px rgba(7, 7, 233, 0.531);
+    color: rgb(57, 241, 11);
+}
+.my-shadow-2{
+    box-shadow: 0px 0px 10px rgba(18, 7, 233, 0.5);
+    color: rgb(30, 241, 11);
+}
+.my-shadow-3{
+    color: rgb(156, 146, 244);
+    box-shadow: 0px 0px 20px rgba(222, 99, 16, 0.695);
+}
+
+.my-shadow-2:hover{
+    box-shadow: 0px 0px 30px rgb(89, 61, 246);
+    color: rgb(255, 252, 254);
+    transition: all 0.5s;
+}
+
+.my-shadow:hover{
+    box-shadow: 0px 0px 30px rgb(89, 61, 246);
+    color: rgb(255, 252, 254);
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+
+.my-text{
+    color: rgb(175, 175, 236);
+}
